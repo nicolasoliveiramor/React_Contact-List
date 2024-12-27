@@ -21,7 +21,7 @@ export const Contacts = ({
 
   const [estaEditando, setEstaEditando] = useState(false)
 
-  const [telefone, setTelefone] = useState('')
+  const [telefone, setTelefone] = useState(0)
   const [email, setEmail] = useState('')
   const [redes, setRedes] = useState('')
 
