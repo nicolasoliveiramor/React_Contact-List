@@ -60,7 +60,7 @@ export const Contacts = ({
               <CampoEditavel
                 type="string"
                 value={telefone}
-                onChange={(e) => setTelefone(e.target.value)}
+                onChange={(e) => setTelefone(Number(e.target.value))}
                 disabled={!estaEditando}
               />
             ) : (
