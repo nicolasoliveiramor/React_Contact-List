@@ -20,7 +20,7 @@ export const Formulario = () => {
 
   const [tipoContato, setTipoContato] = useState(enums.TipoContato.FAMILIA)
   const [titulo, setTitulo] = useState('')
-  const [telefone, setTelefone] = useState('')
+  const [telefone, setTelefone] = useState(0)
   const [email, setEmail] = useState('')
   const [redes, setRedes] = useState('')
 
@@ -51,8 +51,8 @@ export const Formulario = () => {
         />
         <FormCampo
           value={telefone}
-          onChange={(evento) => setTelefone(evento.target.value)}
-          type="text"
+          onChange={(evento) => setTelefone(Number(evento.target.value))}
+          type="number"
           placeholder="Telefone"
         />
         <FormCampo

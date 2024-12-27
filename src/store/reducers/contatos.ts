@@ -13,7 +13,7 @@ const initialState: ContatosState = {
       id: 1,
       titulo: 'Rita',
       tipoContato: enums.TipoContato.FAMILIA,
-      telefone: '11944668062',
+      telefone: 11944668062,
       email: 'ritaaparecida@gmail.com',
       redes: 'facebook'
     },
@@ -21,7 +21,7 @@ const initialState: ContatosState = {
       id: 2,
       titulo: 'Mateus',
       tipoContato: enums.TipoContato.AMIGOS,
-      telefone: '11940028922',
+      telefone: 11940028922,
       email: 'mateusoliveiramor05@gmail.com',
       redes: 'facebook'
     },
@@ -29,7 +29,7 @@ const initialState: ContatosState = {
       id: 3,
       titulo: 'Nicolas',
       tipoContato: enums.TipoContato.CONHECIDOS,
-      telefone: '11944668062',
+      telefone: 11944668062,
       email: 'nicolasoliveiramor05@gmail.com',
       redes: 'facebook'
     }

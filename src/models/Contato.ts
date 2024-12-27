@@ -3,7 +3,7 @@ import { TipoContato } from '../utils/enums/contato'
 export class Contato {
   titulo: string
   tipoContato: TipoContato
-  telefone: string
+  telefone: number
   email: string
   redes: string
   id: number
@@ -11,7 +11,7 @@ export class Contato {
   constructor(
     titulo: string,
     tipoContato: TipoContato,
-    telefone: string,
+    telefone: number,
     email: string,
     redes: string,
     id: number
